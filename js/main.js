@@ -71,7 +71,8 @@
 			noMatch.innerText = "No matches";
 			ul.appendChild(noMatch);
 		}
-
+		$(".student-item").hide();
+		$(".student-item").show("slow");
 
 	}
 	//add page links
