@@ -18,7 +18,7 @@
 	textbox.type = "text";
 	textbox.placeholder="Search for students..."
 	//filter when typing on  input textfield (EXTRA CREDIT)
-	textbox.addEventListener("keydown",function(){
+	textbox.addEventListener("keyup",function(){
 		filter(textbox.value);
 	})
 	searchButton.innerText = "Search";
